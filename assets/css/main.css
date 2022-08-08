@@ -1857,6 +1857,13 @@ header.major {
 .image img {
   display: block;
   width: 100%;
+  /* max-height: 219.8px; */
+  object-fit: cover;
+}
+
+.service-img {
+  display: block;
+  width: 100%;
   max-height: 219.8px;
   object-fit: cover;
 }
@@ -2179,6 +2186,15 @@ button:hover,
 .image-wrapper {
   position: relative;
 }
+.bl-logo {
+  /* outline: 1px solid red; */
+  /* width: 100%; */
+}
+
+/* .bl-img {
+  width: 150%;
+  height: 150%;
+} */
 
 .image-wrapper .image {
   position: relative;
